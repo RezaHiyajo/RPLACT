@@ -24,7 +24,7 @@ class ControllerMaha {
     }
     
     public DefaultTableModel showData(){
-        String[] kolom = {"Nama DVD", "NAMA", "ALAMAT", "KARTU MEMBER"};
+        String[] kolom = {"Nama Judul", "NAMA", "ALAMAT", "KARTU MEMBER"};
         Object [][] objData = new Object [ArrayData.size()][4];
         int i = 0;
         
